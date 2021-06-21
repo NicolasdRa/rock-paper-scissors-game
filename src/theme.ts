@@ -11,7 +11,8 @@ export default createMuiTheme({
     common: {
       // backgroundLight: '#1f3756',
       // backgroundDark: hsl(214, 47%, 23%) to hsl(237, 49%, 15%)',
-      score: '#ffffff',
+      white: '#ffffff',
+      score: '#dde0e1',
       darkText: 'hsl(229, 25%, 31%)',
       scoreText: 'hsl(229, 64%, 46%)',
       headerOutline: 'hsl(217, 16%, 45%)',
