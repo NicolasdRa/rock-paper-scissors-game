@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { DataContext } from '../../context/DataContext';
+
 import { Box, Typography } from '@material-ui/core';
 
 import { useStyles } from './styles';
 import theme from '../../theme';
 
-interface HeaderProps {
-  score: number;
-}
-
-export const Header: React.FC<HeaderProps> = ({ score }) => {
+export const Header: React.FC = () => {
   const classes = useStyles(theme);
+
+  const { score, setScore } = useContext(DataContext);
 
   return (
     <Box className={classes.main}>

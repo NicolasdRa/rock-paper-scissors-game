@@ -28,10 +28,18 @@ export default createMuiTheme({
   },
 
   typography: {
-    fontFamily: ['Barlow', 'sans-serif'].join(','),
+    fontFamily: ['Barlow Semi Condensed', 'sans-serif'].join(','),
   },
 
-  overrides: {},
+  overrides: {
+    MuiTooltip: {
+      tooltip: {
+        backgroundColor: '#ffffff',
+        color: 'hsl(229, 25%, 31%)',
+        fontSize: '10px',
+      },
+    },
+  },
 
   breakpoints: {
     values: {

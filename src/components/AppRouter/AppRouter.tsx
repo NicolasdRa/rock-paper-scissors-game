@@ -1,4 +1,4 @@
-import React from 'react';
+import { DataProvider } from '../../context/DataContext';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Box } from '@material-ui/core';
 
@@ -11,16 +11,19 @@ import { useStyles } from './styles';
 
 export const AppRouter = () => {
   const classes = useStyles();
+
   return (
-    <Box className={classes.main}>
-      <Header score={12} />
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Board} />
-          <Route exact path='/game' component={Game} />
-        </Switch>
-      </Router>
-      <RulesModal />
-    </Box>
+    <DataProvider>
+      <Box className={classes.main}>
+        <Header />
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Board} />
+            <Route exact path='/game' component={Game} />
+          </Switch>
+        </Router>
+        <RulesModal />
+      </Box>
+    </DataProvider>
   );
 };
