@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from "react";
 
 export type GlobalContext = {
   score: number;
@@ -10,7 +10,7 @@ export type GlobalContext = {
 export const DataContext = createContext<GlobalContext>({
   score: 0,
   setScore: () => {},
-  pick: '',
+  pick: "",
   setPick: () => {},
 });
 
@@ -19,8 +19,8 @@ interface Props {
 }
 
 export const DataProvider: React.FC<Props> = ({ children }) => {
-  const [score, setScore] = useState(12);
-  const [pick, setPick] = useState('');
+  const [score, setScore] = useState(0);
+  const [pick, setPick] = useState("");
 
   return (
     <DataContext.Provider value={{ score, setScore, pick, setPick }}>

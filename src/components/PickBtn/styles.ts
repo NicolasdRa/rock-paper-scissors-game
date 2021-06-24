@@ -1,57 +1,133 @@
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    btn: {
-      padding: '1rem',
-      background: `radial-gradient(${theme.palette.common.white}, ${theme.palette.common.score})`,
-      transition: 'transform .2s, box-shadow .2s',
-      '&:hover': {
-        transform: 'scale(1.04) perspective(0px)',
-        boxShadow: '0px 0px 20px 2px rgba(221,224,225,0.7)',
+    main: {
+      borderRadius: "50%",
+      transition: "transform .2s, box-shadow .2s",
+      "&:hover": {
+        boxShadow: `0px 10px 10px 1px ${theme.palette.common.headerOutline}`,
+        transform: "scale(1.04) perspective(0px)",
       },
+    },
+    btn: {
+      padding: "1rem",
+      background: `radial-gradient(${theme.palette.common.white}, ${theme.palette.common.score})`,
+    },
+
+    // FIXME: 3d effect only shows on hover on big btn
+    btnBig: {
+      padding: "1.7rem !important",
     },
 
     icon: {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-      transform: 'translate(-50%, -50%)',
-      width: '3rem',
-      height: '3rem',
+      position: "absolute",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+      width: "3rem",
+      height: "3rem",
+    },
+
+    iconBig: {
+      width: "4.5rem",
+      height: "4.5rem",
     },
 
     iconContainer: {
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '7rem',
-      width: '7rem',
-      borderRadius: '50%',
-      background: `radial-gradient(1rem at center, ${theme.palette.common.white}, ${theme.palette.common.score})`,
-    },
-
-    btnRock: {
-      background: 'linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%))',
-      boxShadow: 'inset -1px 3px 8px 5px #e05770, 2px 5px 16px 0px #0B325E',
-    },
-
-    btnPaper: {
-      background: 'linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%))',
-      boxShadow: 'inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E',
-    },
-
-    btnScissors: {
-      background: 'linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%))',
-      boxShadow: 'inset -1px 3px 8px 5px #e6bd6c, 2px 5px 16px 0px #0B325E',
-    },
-
-    btnBig: {
-      padding: '1.5rem !important',
+      position: "relative",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "7rem",
+      width: "7rem",
+      borderRadius: "50%",
+      background: `radial-gradient(1rem at center, ${theme.palette.common.score}, ${theme.palette.common.score})`,
+      "&::before": {
+        content: '""',
+        height: "6.6rem",
+        width: "7rem",
+        backgroundColor: theme.palette.common.white,
+        position: "absolute",
+        display: "block",
+        borderRadius: "50%",
+        top: "5%",
+      },
     },
 
     iconContainerBig: {
-      height: '8rem !important',
-      width: '8rem !important',
+      height: "10rem",
+      width: "10rem",
+      "&::before": {
+        content: '""',
+        height: "10rem",
+        width: "10rem",
+      },
     },
-  }),
+
+    btnRock: {
+      background: "linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%))",
+      "&::before": {
+        content: '""',
+        height: "9.5rem",
+        width: "9rem",
+        backgroundColor: "#a6243c",
+        position: "absolute",
+        display: "block",
+        borderRadius: "50%",
+        bottom: "-5%",
+        zIndex: -1,
+      },
+    },
+
+    btnRockBig: {
+      "&::before": {
+        height: "13rem",
+        width: "13rem",
+      },
+    },
+
+    btnPaper: {
+      background: "linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%))",
+      "&::before": {
+        content: '""',
+        height: "9.5rem",
+        width: "9rem",
+        backgroundColor: "#2037a8",
+        position: "absolute",
+        display: "block",
+        borderRadius: "50%",
+        bottom: "-5%",
+        zIndex: -1,
+      },
+    },
+
+    btnPaperBig: {
+      "&::before": {
+        height: "13rem",
+        width: "13rem",
+      },
+    },
+
+    btnScissors: {
+      background: "linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%))",
+      "&::before": {
+        content: '""',
+        height: "9.5rem",
+        width: "9rem",
+        backgroundColor: "#d18d0f",
+        position: "absolute",
+        display: "block",
+        borderRadius: "50%",
+        bottom: "-5%",
+        zIndex: -1,
+      },
+    },
+
+    btnScissorsBig: {
+      "&::before": {
+        height: "13rem",
+        width: "13rem",
+      },
+    },
+  })
 );
