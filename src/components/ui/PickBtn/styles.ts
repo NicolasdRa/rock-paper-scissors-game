@@ -11,12 +11,20 @@ export const useStyles = makeStyles((theme: Theme) =>
       },
     },
     btn: {
-      padding: "1rem",
+      padding: "1.1rem",
       background: `radial-gradient(${theme.palette.common.white}, ${theme.palette.common.score})`,
+
+      [theme.breakpoints.down("md")]: {
+        padding: ".8rem",
+      },
     },
 
     btnBig: {
-      padding: "1.7rem !important",
+      padding: "1.7rem",
+
+      [theme.breakpoints.down("md")]: {
+        padding: ".8rem",
+      },
     },
 
     icon: {
@@ -26,11 +34,21 @@ export const useStyles = makeStyles((theme: Theme) =>
       transform: "translate(-50%, -50%)",
       width: "3rem",
       height: "3rem",
+
+      [theme.breakpoints.down("md")]: {
+        width: "2.6rem",
+        height: "2.6rem",
+      },
     },
 
     iconBig: {
       width: "4.5rem",
       height: "4.5rem",
+
+      [theme.breakpoints.down("md")]: {
+        width: "2.6rem",
+        height: "2.6rem",
+      },
     },
 
     iconContainer: {
@@ -40,16 +58,13 @@ export const useStyles = makeStyles((theme: Theme) =>
       height: "7rem",
       width: "7rem",
       borderRadius: "50%",
-      background: `radial-gradient(1rem at center, ${theme.palette.common.score}, ${theme.palette.common.score})`,
-      "&::before": {
-        content: '""',
-        height: "6.6rem",
-        width: "7rem",
-        backgroundColor: theme.palette.common.white,
-        position: "absolute",
-        display: "block",
-        borderRadius: "50%",
-        top: "5%",
+      backgroundColor: theme.palette.common.white,
+      boxShadow: `inset 0px 7px 2px ${theme.palette.common.shadow}`,
+
+      [theme.breakpoints.down("md")]: {
+        boxShadow: `inset 0px 6px 2px ${theme.palette.common.shadow}`,
+        height: "6rem",
+        width: "6rem",
       },
     },
 
@@ -60,6 +75,16 @@ export const useStyles = makeStyles((theme: Theme) =>
         content: '""',
         height: "10rem",
         width: "10rem",
+
+        [theme.breakpoints.down("md")]: {
+          height: "5.8rem",
+          width: "6rem",
+        },
+      },
+
+      [theme.breakpoints.down("md")]: {
+        height: "6rem",
+        width: "6rem",
       },
     },
 
@@ -75,13 +100,16 @@ export const useStyles = makeStyles((theme: Theme) =>
         borderRadius: "50%",
         bottom: "-5%",
         zIndex: -1,
-      },
-    },
 
-    btnRockBig: {
-      "&::before": {
-        height: "13rem",
-        width: "13rem",
+        [theme.breakpoints.down("md")]: {
+          height: "7.5rem",
+          width: "7rem",
+        },
+      },
+
+      [theme.breakpoints.down("md")]: {
+        height: "7.3rem",
+        width: "7.3rem",
       },
     },
 
@@ -97,13 +125,16 @@ export const useStyles = makeStyles((theme: Theme) =>
         borderRadius: "50%",
         bottom: "-5%",
         zIndex: -1,
-      },
-    },
 
-    btnPaperBig: {
-      "&::before": {
-        height: "13rem",
-        width: "13rem",
+        [theme.breakpoints.down("md")]: {
+          height: "7.5rem",
+          width: "7rem",
+        },
+      },
+
+      [theme.breakpoints.down("md")]: {
+        height: "7.3rem",
+        width: "7.3rem",
       },
     },
 
@@ -119,6 +150,40 @@ export const useStyles = makeStyles((theme: Theme) =>
         borderRadius: "50%",
         bottom: "-5%",
         zIndex: -1,
+
+        [theme.breakpoints.down("md")]: {
+          height: "7.5rem",
+          width: "7rem",
+        },
+      },
+
+      [theme.breakpoints.down("md")]: {
+        height: "7.3rem",
+        width: "7.3rem",
+      },
+    },
+
+    btnRockBig: {
+      "&::before": {
+        height: "13rem",
+        width: "13rem",
+
+        [theme.breakpoints.down("md")]: {
+          height: "7.5rem",
+          width: "7rem",
+        },
+      },
+    },
+
+    btnPaperBig: {
+      "&::before": {
+        height: "13rem",
+        width: "13rem",
+
+        [theme.breakpoints.down("md")]: {
+          height: "7.5rem",
+          width: "7rem",
+        },
       },
     },
 
@@ -126,6 +191,11 @@ export const useStyles = makeStyles((theme: Theme) =>
       "&::before": {
         height: "13rem",
         width: "13rem",
+
+        [theme.breakpoints.down("md")]: {
+          height: "7.5rem",
+          width: "7rem",
+        },
       },
     },
   })

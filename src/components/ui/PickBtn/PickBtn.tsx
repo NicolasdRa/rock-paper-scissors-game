@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../../context/DataContext";
 import { Box, IconButton } from "@material-ui/core";
-import rockImg from "../../icons/icon-rock.svg";
-import paperImg from "../../icons/icon-paper.svg";
-import scissorsImg from "../../icons/icon-scissors.svg";
+import rockImg from "../../../icons/icon-rock.svg";
+import paperImg from "../../../icons/icon-paper.svg";
+import scissorsImg from "../../../icons/icon-scissors.svg";
 
 import { useStyles } from "./styles";
 

@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../../context/DataContext";
 
 import { Box, Typography } from "@material-ui/core";
 
 import { useStyles } from "./styles";
-import theme from "../../theme";
+import theme from "../../../theme";
 
 export const Header: React.FC = () => {
   const classes = useStyles(theme);
@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
   const { score } = useContext(DataContext);
 
   return (
-    <Box className={classes.main}>
+    <Box className={classes.header}>
       <Box className={classes.titleBox}>
         <Typography variant="h3" className={classes.title}>
           Rock

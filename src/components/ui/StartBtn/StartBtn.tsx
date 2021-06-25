@@ -3,7 +3,7 @@ import { useHistory, useLocation } from "react-router-dom";
 
 import { Button } from "@material-ui/core";
 
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../../context/DataContext";
 import { useStyles } from "./styles";
 
 export const StartBtn = () => {
