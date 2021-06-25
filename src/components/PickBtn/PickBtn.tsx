@@ -13,9 +13,10 @@ import { useStyles } from "./styles";
 interface Props {
   type: string;
   size?: string;
+  disabled?: boolean;
 }
 
-export const PickBtn: React.FC<Props> = ({ type, size }) => {
+export const PickBtn: React.FC<Props> = ({ type, size, disabled }) => {
   const classes = useStyles();
 
   const { setPick } = useContext(DataContext);
@@ -31,7 +32,10 @@ export const PickBtn: React.FC<Props> = ({ type, size }) => {
   return (
     <Box className={classes.main}>
       <IconButton
-        onClick={() => setPick(type)}
+        disableRipple={disabled}
+        onClick={() => {
+          !disabled && setPick(type);
+        }}
         component={Link}
         to="/game"
         className={clsx(classes.btn, {

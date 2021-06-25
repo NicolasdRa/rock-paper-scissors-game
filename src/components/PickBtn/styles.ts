@@ -15,7 +15,6 @@ export const useStyles = makeStyles((theme: Theme) =>
       background: `radial-gradient(${theme.palette.common.white}, ${theme.palette.common.score})`,
     },
 
-    // FIXME: 3d effect only shows on hover on big btn
     btnBig: {
       padding: "1.7rem !important",
     },
