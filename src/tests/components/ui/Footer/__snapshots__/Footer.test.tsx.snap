@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Footer/> should render <Footer/> correctly 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-2 makeStyles-footer-1"
+>
+  <div
+    className="MuiBox-root MuiBox-root-3"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-startBtn-4"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Sart New Match
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+  <div
+    className="MuiBox-root MuiBox-root-5"
+  >
+    <div
+      className="MuiBox-root MuiBox-root-14 makeStyles-main-6"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-btn-13 MuiButton-outlinedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Rules
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

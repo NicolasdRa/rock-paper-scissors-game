@@ -16,7 +16,7 @@ import rules from "../../../icons/image-rules.svg";
 
 import { useStyles } from "./styles";
 
-export const RulesModal = () => {
+export const RulesModal: React.FC = () => {
   const classes = useStyles();
   const theme = useTheme();
 

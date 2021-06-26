@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <AppRouter/> should render <AppRouter/> correctly 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-3 makeStyles-main-1"
+>
+  <div
+    className="MuiBox-root MuiBox-root-11 makeStyles-boardMain-4"
+  >
+    <div
+      className="MuiBox-root MuiBox-root-18 makeStyles-header-12"
+    >
+      <div
+        className="MuiBox-root MuiBox-root-19 makeStyles-titleBox-13"
+      >
+        <h3
+          className="MuiTypography-root makeStyles-title-14 MuiTypography-h3"
+        >
+          Rock
+        </h3>
+        <h3
+          className="MuiTypography-root makeStyles-title-14 MuiTypography-h3"
+        >
+          Paper
+        </h3>
+        <h3
+          className="MuiTypography-root makeStyles-title-14 MuiTypography-h3"
+        >
+          Scissors
+        </h3>
+      </div>
+      <div
+        className="MuiBox-root MuiBox-root-20 makeStyles-scoreBox-15"
+      >
+        <h3
+          className="MuiTypography-root makeStyles-scoreTitle-16 MuiTypography-h3"
+        >
+          score
+        </h3>
+        <h3
+          className="MuiTypography-root makeStyles-score-17 MuiTypography-h3"
+        >
+          0
+        </h3>
+      </div>
+    </div>
+    <div
+      className="MuiBox-root MuiBox-root-21 makeStyles-boardContent-5"
+    >
+      <div
+        className="MuiBox-root MuiBox-root-22 makeStyles-btnsContainer-7"
+      >
+        <div
+          className="MuiBox-root MuiBox-root-23 makeStyles-btnPaper-9"
+        >
+          <div
+            className="MuiBox-root MuiBox-root-37 makeStyles-main-24"
+          >
+            <a
+              aria-disabled={false}
+              className="MuiButtonBase-root MuiIconButton-root makeStyles-btn-25 makeStyles-btnPaper-32"
+              href="/game"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <span
+                className="MuiIconButton-label"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-38 makeStyles-iconContainer-29"
+                >
+                  <img
+                    alt="pick btn"
+                    className="makeStyles-icon-27"
+                    src="icon-paper.svg"
+                  />
+                </div>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          className="MuiBox-root MuiBox-root-39 makeStyles-btnRock-8"
+        >
+          <div
+            className="MuiBox-root MuiBox-root-40 makeStyles-main-24"
+          >
+            <a
+              aria-disabled={false}
+              className="MuiButtonBase-root MuiIconButton-root makeStyles-btn-25 makeStyles-btnRock-31"
+              href="/game"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <span
+                className="MuiIconButton-label"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-41 makeStyles-iconContainer-29"
+                >
+                  <img
+                    alt="pick btn"
+                    className="makeStyles-icon-27"
+                    src="icon-rock.svg"
+                  />
+                </div>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          className="MuiBox-root MuiBox-root-42 makeStyles-btnScissors-10"
+        >
+          <div
+            className="MuiBox-root MuiBox-root-43 makeStyles-main-24"
+          >
+            <a
+              aria-disabled={false}
+              className="MuiButtonBase-root MuiIconButton-root makeStyles-btn-25 makeStyles-btnScissors-33"
+              href="/game"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <span
+                className="MuiIconButton-label"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-44 makeStyles-iconContainer-29"
+                >
+                  <img
+                    alt="pick btn"
+                    className="makeStyles-icon-27"
+                    src="icon-scissors.svg"
+                  />
+                </div>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <img
+        alt=""
+        className="makeStyles-triangle-6"
+        src="bg-triangle.svg"
+      />
+    </div>
+    <div
+      className="MuiBox-root MuiBox-root-46 makeStyles-footer-45"
+    >
+      <div
+        className="MuiBox-root MuiBox-root-47"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-startBtn-48"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Sart New Match
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        className="MuiBox-root MuiBox-root-49"
+      >
+        <div
+          className="MuiBox-root MuiBox-root-58 makeStyles-main-50"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-btn-57 MuiButton-outlinedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Rules
+            </span>
+            <span
+              className="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

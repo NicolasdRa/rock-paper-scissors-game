@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <App/> should render <App/> correctly 1`] = `
+Array [
+  "",
+  <div
+    className="MuiBox-root-3 MuiBox-root-4 makeStyles-main-1"
+  >
+    <div
+      className="MuiBox-root-3 MuiBox-root-12 makeStyles-boardMain-5"
+    >
+      <div
+        className="MuiBox-root-3 MuiBox-root-19 makeStyles-header-13"
+      >
+        <div
+          className="MuiBox-root-3 MuiBox-root-20 makeStyles-titleBox-14"
+        >
+          <h3
+            className="MuiTypography-root-21 makeStyles-title-15 MuiTypography-h3-28"
+          >
+            Rock
+          </h3>
+          <h3
+            className="MuiTypography-root-21 makeStyles-title-15 MuiTypography-h3-28"
+          >
+            Paper
+          </h3>
+          <h3
+            className="MuiTypography-root-21 makeStyles-title-15 MuiTypography-h3-28"
+          >
+            Scissors
+          </h3>
+        </div>
+        <div
+          className="MuiBox-root-3 MuiBox-root-51 makeStyles-scoreBox-16"
+        >
+          <h3
+            className="MuiTypography-root-21 makeStyles-scoreTitle-17 MuiTypography-h3-28"
+          >
+            score
+          </h3>
+          <h3
+            className="MuiTypography-root-21 makeStyles-score-18 MuiTypography-h3-28"
+          >
+            0
+          </h3>
+        </div>
+      </div>
+      <div
+        className="MuiBox-root-3 MuiBox-root-52 makeStyles-boardContent-6"
+      >
+        <div
+          className="MuiBox-root-3 MuiBox-root-53 makeStyles-btnsContainer-8"
+        >
+          <div
+            className="MuiBox-root-3 MuiBox-root-54 makeStyles-btnPaper-10"
+          >
+            <div
+              className="MuiBox-root-3 MuiBox-root-68 makeStyles-main-55"
+            >
+              <a
+                aria-disabled={false}
+                className="MuiButtonBase-root-77 MuiIconButton-root-69 makeStyles-btn-56 makeStyles-btnPaper-63"
+                href="/game"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  className="MuiIconButton-label-76"
+                >
+                  <div
+                    className="MuiBox-root-3 MuiBox-root-78 makeStyles-iconContainer-60"
+                  >
+                    <img
+                      alt="pick btn"
+                      className="makeStyles-icon-58"
+                      src="icon-paper.svg"
+                    />
+                  </div>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-141"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            className="MuiBox-root-3 MuiBox-root-79 makeStyles-btnRock-9"
+          >
+            <div
+              className="MuiBox-root-3 MuiBox-root-80 makeStyles-main-55"
+            >
+              <a
+                aria-disabled={false}
+                className="MuiButtonBase-root-77 MuiIconButton-root-69 makeStyles-btn-56 makeStyles-btnRock-62"
+                href="/game"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  className="MuiIconButton-label-76"
+                >
+                  <div
+                    className="MuiBox-root-3 MuiBox-root-81 makeStyles-iconContainer-60"
+                  >
+                    <img
+                      alt="pick btn"
+                      className="makeStyles-icon-58"
+                      src="icon-rock.svg"
+                    />
+                  </div>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-141"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            className="MuiBox-root-3 MuiBox-root-82 makeStyles-btnScissors-11"
+          >
+            <div
+              className="MuiBox-root-3 MuiBox-root-83 makeStyles-main-55"
+            >
+              <a
+                aria-disabled={false}
+                className="MuiButtonBase-root-77 MuiIconButton-root-69 makeStyles-btn-56 makeStyles-btnScissors-64"
+                href="/game"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                <span
+                  className="MuiIconButton-label-76"
+                >
+                  <div
+                    className="MuiBox-root-3 MuiBox-root-84 makeStyles-iconContainer-60"
+                  >
+                    <img
+                      alt="pick btn"
+                      className="makeStyles-icon-58"
+                      src="icon-scissors.svg"
+                    />
+                  </div>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-141"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <img
+          alt=""
+          className="makeStyles-triangle-7"
+          src="bg-triangle.svg"
+        />
+      </div>
+      <div
+        className="MuiBox-root-3 MuiBox-root-86 makeStyles-footer-85"
+      >
+        <div
+          className="MuiBox-root-3 MuiBox-root-87"
+        >
+          <button
+            className="MuiButtonBase-root-77 MuiButton-root-89 MuiButton-text-91 makeStyles-startBtn-88"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-90"
+            >
+              Sart New Match
+            </span>
+            <span
+              className="MuiTouchRipple-root-141"
+            />
+          </button>
+        </div>
+        <div
+          className="MuiBox-root-3 MuiBox-root-116"
+        >
+          <div
+            className="MuiBox-root-3 MuiBox-root-125 makeStyles-main-117"
+          >
+            <button
+              className="MuiButtonBase-root-77 MuiButton-root-89 MuiButton-outlined-94 makeStyles-btn-124 MuiButton-outlinedPrimary-95"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label-90"
+              >
+                Rules
+              </span>
+              <span
+                className="MuiTouchRipple-root-141"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

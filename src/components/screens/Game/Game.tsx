@@ -31,12 +31,12 @@ export const Game = () => {
 
   const [housePick, setHousePick] = useState("");
   const [result, setResult] = useState<string | null>(null);
+
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    !pick && history.push("/");
-    // eslint-disable-next-line
-  }, [pick]);
+    if (pick === "") return history.push("/");
+  });
 
   useEffect(() => {
     const options = ["rock", "paper", "scissors"];
@@ -91,7 +91,7 @@ export const Game = () => {
         </Hidden>
 
         <Box className={classes.content}>
-          <Box className={classes.youBtn}>
+          <Box className={classes.youBtn} id="pickBtn">
             <PickBtn disabled type={pick} size="big" />
           </Box>
           <Hidden smDown>
@@ -117,6 +117,7 @@ export const Game = () => {
                   to="/"
                   variant="contained"
                   className={classes.btn}
+                  id="playBtn"
                 >
                   Play Again
                 </Button>
@@ -131,6 +132,7 @@ export const Game = () => {
               })}
             ></Box>
             <Box
+              id="#housePick"
               className={clsx({
                 [classes.show]: show === true,
                 [classes.hide]: show === false,

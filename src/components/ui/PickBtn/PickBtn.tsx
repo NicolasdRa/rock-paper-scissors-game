@@ -1,13 +1,11 @@
+import { Box, IconButton } from "@material-ui/core";
+import clsx from "clsx";
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import clsx from "clsx";
-
 import { DataContext } from "../../../context/DataContext";
-import { Box, IconButton } from "@material-ui/core";
 import rockImg from "../../../icons/icon-rock.svg";
 import paperImg from "../../../icons/icon-paper.svg";
 import scissorsImg from "../../../icons/icon-scissors.svg";
-
 import { useStyles } from "./styles";
 
 interface Props {
@@ -21,7 +19,7 @@ export const PickBtn: React.FC<Props> = ({ type, size, disabled }) => {
 
   const { setPick } = useContext(DataContext);
 
-  const getImg = (type: string): any => {
+  const getIcon = (type: string): any => {
     if (type === "rock") {
       return rockImg;
     } else if (type === "paper") {
@@ -29,13 +27,15 @@ export const PickBtn: React.FC<Props> = ({ type, size, disabled }) => {
     } else if (type === "scissors") return scissorsImg;
   };
 
+  const handleClickPick = () => {
+    !disabled && setPick(type);
+  };
+
   return (
     <Box className={classes.main}>
       <IconButton
         disableRipple={disabled}
-        onClick={() => {
-          !disabled && setPick(type);
-        }}
+        onClick={handleClickPick}
         component={Link}
         to="/game"
         className={clsx(classes.btn, {
@@ -55,7 +55,7 @@ export const PickBtn: React.FC<Props> = ({ type, size, disabled }) => {
           })}
         >
           <img
-            src={getImg(type)}
+            src={getIcon(type)}
             alt="pick btn"
             className={clsx(classes.icon, {
               [classes.iconBig]: size === "big",

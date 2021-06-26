@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on <Header/> should render <Header/> correctly 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-7 makeStyles-header-1"
+>
+  <div
+    className="MuiBox-root MuiBox-root-8 makeStyles-titleBox-2"
+  >
+    <h3
+      className="MuiTypography-root makeStyles-title-3 MuiTypography-h3"
+    >
+      Rock
+    </h3>
+    <h3
+      className="MuiTypography-root makeStyles-title-3 MuiTypography-h3"
+    >
+      Paper
+    </h3>
+    <h3
+      className="MuiTypography-root makeStyles-title-3 MuiTypography-h3"
+    >
+      Scissors
+    </h3>
+  </div>
+  <div
+    className="MuiBox-root MuiBox-root-9 makeStyles-scoreBox-4"
+  >
+    <h3
+      className="MuiTypography-root makeStyles-scoreTitle-5 MuiTypography-h3"
+    >
+      score
+    </h3>
+    <h3
+      className="MuiTypography-root makeStyles-score-6 MuiTypography-h3"
+    >
+      5
+    </h3>
+  </div>
+</div>
+`;

@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       transition: "transform .2s, box-shadow .2s",
       "&:hover": {
         boxShadow: `0px 10px 10px 1px ${theme.palette.common.headerOutline}`,
-        transform: "scale(1.04) perspective(0px)",
+        transform: "scale(1.05) perspective(0px)",
       },
     },
     btn: {
