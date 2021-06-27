@@ -39,7 +39,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       height: "52vh",
 
       [theme.breakpoints.down("md")]: {
-        marginTop: "1rem",
+        // marginTop: "1rem",
         height: "42vh",
       },
     },
