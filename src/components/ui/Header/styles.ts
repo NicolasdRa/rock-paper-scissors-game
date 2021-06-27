@@ -15,7 +15,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       borderRadius: ".5rem",
       borderColor: theme.palette.common.headerOutline,
       padding: "1rem 1.5rem",
-      margin: "1rem auto 2rem auto",
+      margin: "0 auto 2rem auto",
 
       [theme.breakpoints.down("md")]: {
         width: "90vw",
